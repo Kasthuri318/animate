@@ -1,0 +1,33 @@
+<!-- Animations prgm-->
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Animations</title>
+    <style>
+        .cl{
+            border: 1px solid;
+            height: 100px;
+            width: 150px;
+            position: relative;
+            animation-name: candy;
+            animation-duration: 9s;
+            animation-iteration-count: infinite;
+            animation-delay: 1s;
+        }
+        @keyframes candy{
+            0%{background-color: blueviolet; left: 0px; top: 0px;}
+            25%{background-color: darkmagenta; left: 200px; top: 200px}
+            50%{background-color: fuchsia; left: 100px; top: 100px;}
+            75%{background-color: purple;left: 200px; top:0px;}
+            100%{background-color: teal; left:0px; top:100px;}
+        }
+    </style>
+</head>
+<body>
+    <div class="cl">
+         
+    </div>
+</body>
+</html>
